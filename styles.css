@@ -1,4 +1,68 @@
-* {
-    margin: 0;
-    background-color: beige;
+body
+{
+    background: url(./images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+footer
+{
+    background-color: rgb(51,51,51);
+    opacity: 0.7;
+}
+
+.input
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navdiv
+{
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.navbarul
+{
+    display: flex;
+    width: 15%;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(51,51,51);
+    border-radius: 25px;
+    margin: 0 auto;
+    border: 2px solid rgb(44, 176, 123);
+    position: fixed;
+    top: 2%;
+}
+
+.navbarli
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.navbarli a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 9%;
+    text-decoration: none;
+}
+
+
+.navbarli:hover
+{
+    background-color:	rgb(104,104,104);
 }
