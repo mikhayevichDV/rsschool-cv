@@ -12,17 +12,47 @@
 <body>
 <nav class="navdiv">
     <ul class="navbarul">
-        <li class="navbarli"><a href="info.html">Main information</a></li>
+        <li class="navbarli"><a href="index.html">Main information</a></li>
         <li class="navbarli"><a href="skills.html">Skills</a></li>
     </ul>
 </nav>
 
-<main>
+<main >
+    <h1>Skills:</h1>
+    <ul class="list">
+        <li>HTML/CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>TypeScript</li>
+        <li>Redux</li>
+        <li>Git</li>
+    </ul>
+    <hr>
+    <h2>Code example:</h2>
+    <pre>
+        var twoSum = function(nums, target) {
+        for (let i=0;i < nums.length;i++) {
+            for (let j=1;j < nums.length;j++){
+                if (nums[i]+nums[j]===target) {
+                    if(i!==j){
+                        return [i,j]
+                }
+            }
+        }
+    }
+};
+    </pre>
+    <hr>
+    <h2>Projects:</h2>
+    <p><a href="https://note-niblecraft.netlify.app/" target="_blank" class="link">NoteBook on React + TypeScript + SCSS</a></p>
+    <p><a href="https://registration-idf.netlify.app/" target="_blank" class="link">Registration Form on React + TypeScript + Redux</a></p>
 
 </main>
 
 <footer>
-
+    <a href="https://github.com/mikhayevichDV" class="link" target="_blank">GitHub</a>
+    <p> 2022</p>
+   <a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" style="width: 20%" alt="course's logo"></a>
 </footer>
 </body>
 </html>
