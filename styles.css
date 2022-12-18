@@ -1,3 +1,89 @@
-* {
+body {
+    background: url(./images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     margin: 0;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    color: white;
+    justify-content: space-around;
+}
+
+.navdiv {
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.navbarul {
+    display: flex;
+    width: 20%;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(51,51,51,0.9);
+    border-radius: 25px;
+    margin: 0 auto;
+    border: 2px solid rgb(44, 176, 123);
+    position: fixed;
+    top: 2%;
+}
+
+.navbarli {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.navbarli a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 9%;
+    text-decoration: none;
+}
+
+.navbarli:hover {
+    background-color:	rgb(104,104,104);
+}
+
+main {
+    position: absolute;
+    background-color: rgba(51,51,51,0.9);
+    border: 2px solid rgb(44, 176, 123);
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    width: 50%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.avatar {
+    width: 12%;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    color: white;
 }
